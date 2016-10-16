@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		934C419D1DADE221000407FD /* SettingsControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C419C1DADE221000407FD /* SettingsControllerViewController.swift */; };
+		934C41A01DADE6EA000407FD /* SearchBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C419F1DADE6EA000407FD /* SearchBackViewController.swift */; };
+		934C41A21DADEA07000407FD /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C41A11DADEA07000407FD /* ResultsViewController.swift */; };
+		934C41A41DADEA85000407FD /* WebTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C41A31DADEA85000407FD /* WebTabViewController.swift */; };
+		93F06D0F1DADD35E00FFC287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F06D0E1DADD35E00FFC287 /* AppDelegate.swift */; };
+		93F06D111DADD35E00FFC287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F06D101DADD35E00FFC287 /* ViewController.swift */; };
+		93F06D141DADD35E00FFC287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F06D121DADD35E00FFC287 /* Main.storyboard */; };
+		93F06D161DADD35E00FFC287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F06D151DADD35E00FFC287 /* Assets.xcassets */; };
+		93F06D191DADD35E00FFC287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F06D171DADD35E00FFC287 /* LaunchScreen.storyboard */; };
+		93F06D241DADD35E00FFC287 /* Week_1___Prototyping___NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F06D231DADD35E00FFC287 /* Week_1___Prototyping___NavTests.swift */; };
+		93F06D2F1DADD35E00FFC287 /* Week_1___Prototyping___NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F06D2E1DADD35E00FFC287 /* Week_1___Prototyping___NavUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93F06D201DADD35E00FFC287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F06D031DADD35D00FFC287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F06D0A1DADD35E00FFC287;
+			remoteInfo = "Week 1 - Prototyping + Nav";
+		};
+		93F06D2B1DADD35E00FFC287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F06D031DADD35D00FFC287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F06D0A1DADD35E00FFC287;
+			remoteInfo = "Week 1 - Prototyping + Nav";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		934C419C1DADE221000407FD /* SettingsControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsControllerViewController.swift; sourceTree = "<group>"; };
+		934C419F1DADE6EA000407FD /* SearchBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBackViewController.swift; sourceTree = "<group>"; };
+		934C41A11DADEA07000407FD /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsViewController.swift; path = ../ResultsViewController.swift; sourceTree = "<group>"; };
+		934C41A31DADEA85000407FD /* WebTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebTabViewController.swift; path = ../WebTabViewController.swift; sourceTree = "<group>"; };
+		93F06D0B1DADD35E00FFC287 /* Week 1 - Prototyping + Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 1 - Prototyping + Nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F06D0E1DADD35E00FFC287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93F06D101DADD35E00FFC287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93F06D131DADD35E00FFC287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93F06D151DADD35E00FFC287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93F06D181DADD35E00FFC287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93F06D1A1DADD35E00FFC287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F06D1F1DADD35E00FFC287 /* Week 1 - Prototyping + NavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 1 - Prototyping + NavTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F06D231DADD35E00FFC287 /* Week_1___Prototyping___NavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Week_1___Prototyping___NavTests.swift"; sourceTree = "<group>"; };
+		93F06D251DADD35E00FFC287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F06D2A1DADD35E00FFC287 /* Week 1 - Prototyping + NavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 1 - Prototyping + NavUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F06D2E1DADD35E00FFC287 /* Week_1___Prototyping___NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Week_1___Prototyping___NavUITests.swift"; sourceTree = "<group>"; };
+		93F06D301DADD35E00FFC287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93F06D081DADD35E00FFC287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F06D1C1DADD35E00FFC287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F06D271DADD35E00FFC287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934C419E1DADE227000407FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				934C41A31DADEA85000407FD /* WebTabViewController.swift */,
+				934C41A11DADEA07000407FD /* ResultsViewController.swift */,
+				934C419F1DADE6EA000407FD /* SearchBackViewController.swift */,
+				934C419C1DADE221000407FD /* SettingsControllerViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		93F06D021DADD35D00FFC287 = {
+			isa = PBXGroup;
+			children = (
+				93F06D0D1DADD35E00FFC287 /* Week 1 - Prototyping + Nav */,
+				93F06D221DADD35E00FFC287 /* Week 1 - Prototyping + NavTests */,
+				93F06D2D1DADD35E00FFC287 /* Week 1 - Prototyping + NavUITests */,
+				93F06D0C1DADD35E00FFC287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93F06D0C1DADD35E00FFC287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93F06D0B1DADD35E00FFC287 /* Week 1 - Prototyping + Nav.app */,
+				93F06D1F1DADD35E00FFC287 /* Week 1 - Prototyping + NavTests.xctest */,
+				93F06D2A1DADD35E00FFC287 /* Week 1 - Prototyping + NavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93F06D0D1DADD35E00FFC287 /* Week 1 - Prototyping + Nav */ = {
+			isa = PBXGroup;
+			children = (
+				93F06D0E1DADD35E00FFC287 /* AppDelegate.swift */,
+				93F06D101DADD35E00FFC287 /* ViewController.swift */,
+				93F06D121DADD35E00FFC287 /* Main.storyboard */,
+				934C419E1DADE227000407FD /* ViewControllers */,
+				93F06D151DADD35E00FFC287 /* Assets.xcassets */,
+				93F06D171DADD35E00FFC287 /* LaunchScreen.storyboard */,
+				93F06D1A1DADD35E00FFC287 /* Info.plist */,
+			);
+			path = "Week 1 - Prototyping + Nav";
+			sourceTree = "<group>";
+		};
+		93F06D221DADD35E00FFC287 /* Week 1 - Prototyping + NavTests */ = {
+			isa = PBXGroup;
+			children = (
+				93F06D231DADD35E00FFC287 /* Week_1___Prototyping___NavTests.swift */,
+				93F06D251DADD35E00FFC287 /* Info.plist */,
+			);
+			path = "Week 1 - Prototyping + NavTests";
+			sourceTree = "<group>";
+		};
+		93F06D2D1DADD35E00FFC287 /* Week 1 - Prototyping + NavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93F06D2E1DADD35E00FFC287 /* Week_1___Prototyping___NavUITests.swift */,
+				93F06D301DADD35E00FFC287 /* Info.plist */,
+			);
+			path = "Week 1 - Prototyping + NavUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93F06D0A1DADD35E00FFC287 /* Week 1 - Prototyping + Nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F06D331DADD35E00FFC287 /* Build configuration list for PBXNativeTarget "Week 1 - Prototyping + Nav" */;
+			buildPhases = (
+				93F06D071DADD35E00FFC287 /* Sources */,
+				93F06D081DADD35E00FFC287 /* Frameworks */,
+				93F06D091DADD35E00FFC287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week 1 - Prototyping + Nav";
+			productName = "Week 1 - Prototyping + Nav";
+			productReference = 93F06D0B1DADD35E00FFC287 /* Week 1 - Prototyping + Nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93F06D1E1DADD35E00FFC287 /* Week 1 - Prototyping + NavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F06D361DADD35E00FFC287 /* Build configuration list for PBXNativeTarget "Week 1 - Prototyping + NavTests" */;
+			buildPhases = (
+				93F06D1B1DADD35E00FFC287 /* Sources */,
+				93F06D1C1DADD35E00FFC287 /* Frameworks */,
+				93F06D1D1DADD35E00FFC287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F06D211DADD35E00FFC287 /* PBXTargetDependency */,
+			);
+			name = "Week 1 - Prototyping + NavTests";
+			productName = "Week 1 - Prototyping + NavTests";
+			productReference = 93F06D1F1DADD35E00FFC287 /* Week 1 - Prototyping + NavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93F06D291DADD35E00FFC287 /* Week 1 - Prototyping + NavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F06D391DADD35E00FFC287 /* Build configuration list for PBXNativeTarget "Week 1 - Prototyping + NavUITests" */;
+			buildPhases = (
+				93F06D261DADD35E00FFC287 /* Sources */,
+				93F06D271DADD35E00FFC287 /* Frameworks */,
+				93F06D281DADD35E00FFC287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F06D2C1DADD35E00FFC287 /* PBXTargetDependency */,
+			);
+			name = "Week 1 - Prototyping + NavUITests";
+			productName = "Week 1 - Prototyping + NavUITests";
+			productReference = 93F06D2A1DADD35E00FFC287 /* Week 1 - Prototyping + NavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F06D031DADD35D00FFC287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Aaron Bailey";
+				TargetAttributes = {
+					93F06D0A1DADD35E00FFC287 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					93F06D1E1DADD35E00FFC287 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93F06D0A1DADD35E00FFC287;
+					};
+					93F06D291DADD35E00FFC287 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93F06D0A1DADD35E00FFC287;
+					};
+				};
+			};
+			buildConfigurationList = 93F06D061DADD35D00FFC287 /* Build configuration list for PBXProject "Week 1 - Prototyping + Nav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93F06D021DADD35D00FFC287;
+			productRefGroup = 93F06D0C1DADD35E00FFC287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93F06D0A1DADD35E00FFC287 /* Week 1 - Prototyping + Nav */,
+				93F06D1E1DADD35E00FFC287 /* Week 1 - Prototyping + NavTests */,
+				93F06D291DADD35E00FFC287 /* Week 1 - Prototyping + NavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93F06D091DADD35E00FFC287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F06D191DADD35E00FFC287 /* LaunchScreen.storyboard in Resources */,
+				93F06D161DADD35E00FFC287 /* Assets.xcassets in Resources */,
+				93F06D141DADD35E00FFC287 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F06D1D1DADD35E00FFC287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F06D281DADD35E00FFC287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93F06D071DADD35E00FFC287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F06D111DADD35E00FFC287 /* ViewController.swift in Sources */,
+				934C419D1DADE221000407FD /* SettingsControllerViewController.swift in Sources */,
+				93F06D0F1DADD35E00FFC287 /* AppDelegate.swift in Sources */,
+				934C41A41DADEA85000407FD /* WebTabViewController.swift in Sources */,
+				934C41A21DADEA07000407FD /* ResultsViewController.swift in Sources */,
+				934C41A01DADE6EA000407FD /* SearchBackViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F06D1B1DADD35E00FFC287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F06D241DADD35E00FFC287 /* Week_1___Prototyping___NavTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F06D261DADD35E00FFC287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F06D2F1DADD35E00FFC287 /* Week_1___Prototyping___NavUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93F06D211DADD35E00FFC287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F06D0A1DADD35E00FFC287 /* Week 1 - Prototyping + Nav */;
+			targetProxy = 93F06D201DADD35E00FFC287 /* PBXContainerItemProxy */;
+		};
+		93F06D2C1DADD35E00FFC287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F06D0A1DADD35E00FFC287 /* Week 1 - Prototyping + Nav */;
+			targetProxy = 93F06D2B1DADD35E00FFC287 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93F06D121DADD35E00FFC287 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F06D131DADD35E00FFC287 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93F06D171DADD35E00FFC287 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F06D181DADD35E00FFC287 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93F06D311DADD35E00FFC287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93F06D321DADD35E00FFC287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93F06D341DADD35E00FFC287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Week 1 - Prototyping + Nav/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arnbly.Week-1---Prototyping---Nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		93F06D351DADD35E00FFC287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Week 1 - Prototyping + Nav/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arnbly.Week-1---Prototyping---Nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		93F06D371DADD35E00FFC287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Week 1 - Prototyping + NavTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arnbly.Week-1---Prototyping---NavTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 1 - Prototyping + Nav.app/Week 1 - Prototyping + Nav";
+			};
+			name = Debug;
+		};
+		93F06D381DADD35E00FFC287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Week 1 - Prototyping + NavTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arnbly.Week-1---Prototyping---NavTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 1 - Prototyping + Nav.app/Week 1 - Prototyping + Nav";
+			};
+			name = Release;
+		};
+		93F06D3A1DADD35E00FFC287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Week 1 - Prototyping + NavUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arnbly.Week-1---Prototyping---NavUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Week 1 - Prototyping + Nav";
+			};
+			name = Debug;
+		};
+		93F06D3B1DADD35E00FFC287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Week 1 - Prototyping + NavUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arnbly.Week-1---Prototyping---NavUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Week 1 - Prototyping + Nav";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93F06D061DADD35D00FFC287 /* Build configuration list for PBXProject "Week 1 - Prototyping + Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F06D311DADD35E00FFC287 /* Debug */,
+				93F06D321DADD35E00FFC287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F06D331DADD35E00FFC287 /* Build configuration list for PBXNativeTarget "Week 1 - Prototyping + Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F06D341DADD35E00FFC287 /* Debug */,
+				93F06D351DADD35E00FFC287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F06D361DADD35E00FFC287 /* Build configuration list for PBXNativeTarget "Week 1 - Prototyping + NavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F06D371DADD35E00FFC287 /* Debug */,
+				93F06D381DADD35E00FFC287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F06D391DADD35E00FFC287 /* Build configuration list for PBXNativeTarget "Week 1 - Prototyping + NavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F06D3A1DADD35E00FFC287 /* Debug */,
+				93F06D3B1DADD35E00FFC287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93F06D031DADD35D00FFC287 /* Project object */;
+}
