@@ -51,20 +51,32 @@
                                             <segue destination="CsN-an-hKZ" kind="modal" modalTransitionStyle="crossDissolve" id="rgv-qs-ZMQ"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pqH-0c-Zds">
+                                        <rect key="frame" x="148" y="593" width="830" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.94509803921568625" green="0.97647058823529409" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </button>
                                 </subviews>
                             </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="UdX-Ix-5Bp">
+                                <frame key="frameInset" minX="163" minY="587" width="48" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" red="0.6588235294117647" green="0.81568627450980391" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.050980392156862744" green="0.40000000000000002" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1125" height="667"/>
                     <connections>
+                        <outlet property="pageControl" destination="UdX-Ix-5Bp" id="BfV-2f-KG2"/>
                         <outlet property="scrollView" destination="Yus-aN-ZqM" id="cBw-pp-JwU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mp3-TO-Ckb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="567" y="248"/>
+            <point key="canvasLocation" x="693.5" y="247.5"/>
         </scene>
         <!--Sign In Root View Controller-->
         <scene sceneID="VVW-IA-E3J">
