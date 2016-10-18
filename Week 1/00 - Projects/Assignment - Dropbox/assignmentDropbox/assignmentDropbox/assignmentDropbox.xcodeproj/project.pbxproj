@@ -24,6 +24,7 @@
 		936E9D671DB464900015674B /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E9D661DB464900015674B /* PhotosViewController.swift */; };
 		936E9D691DB4649A0015674B /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E9D681DB4649A0015674B /* FavoritesViewController.swift */; };
 		936E9D6B1DB464AD0015674B /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E9D6A1DB464AD0015674B /* FilesViewController.swift */; };
+		936E9DA71DB5D80C0015674B /* introPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E9DA61DB5D80C0015674B /* introPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		936E9D661DB464900015674B /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		936E9D681DB4649A0015674B /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		936E9D6A1DB464AD0015674B /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		936E9DA61DB5D80C0015674B /* introPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = introPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		936E9D471DB4468F0015674B /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				936E9DA61DB5D80C0015674B /* introPageViewController.swift */,
 				936E9D641DB4647F0015674B /* SettingsViewController.swift */,
 				936E9D621DB460310015674B /* TermsViewController.swift */,
 				936E9D601DB45CF60015674B /* ForgotPasswordViewController.swift */,
@@ -304,6 +307,7 @@
 				936E9D591DB454A20015674B /* CreateAccountRootViewController.swift in Sources */,
 				936E9D1C1DB444D70015674B /* ViewController.swift in Sources */,
 				936E9D5D1DB45AC10015674B /* SignInViewController.swift in Sources */,
+				936E9DA71DB5D80C0015674B /* introPageViewController.swift in Sources */,
 				936E9D691DB4649A0015674B /* FavoritesViewController.swift in Sources */,
 				936E9D631DB460310015674B /* TermsViewController.swift in Sources */,
 				936E9D1A1DB444D70015674B /* AppDelegate.swift in Sources */,
@@ -552,6 +556,7 @@
 				936E9D401DB444D70015674B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		936E9D411DB444D70015674B /* Build configuration list for PBXNativeTarget "assignmentDropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +565,7 @@
 				936E9D431DB444D70015674B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		936E9D441DB444D70015674B /* Build configuration list for PBXNativeTarget "assignmentDropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +574,7 @@
 				936E9D461DB444D70015674B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
