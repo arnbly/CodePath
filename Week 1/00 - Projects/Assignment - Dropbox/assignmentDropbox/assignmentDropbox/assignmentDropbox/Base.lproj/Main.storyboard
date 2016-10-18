@@ -533,7 +533,7 @@
                                 <frame key="frameInset" minX="295" minY="29" width="80" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="O5P-EH-1zx" kind="modal" id="0mf-Lw-29x"/>
+                                    <action selector="createButton:" destination="UyW-tm-fiM" eventType="touchUpInside" id="XpJ-bT-Ced"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -735,13 +735,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="scf-PI-bdJ"/>
                     <connections>
                         <outlet property="webView" destination="ddV-IA-Fdw" id="k9Y-FH-gjo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A2j-fs-i0O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5487.5" y="-611.5"/>
+            <point key="canvasLocation" x="5480" y="-611"/>
         </scene>
         <!--Settings-->
         <scene sceneID="69D-WW-7P7">
@@ -1080,6 +1081,6 @@
         <segue reference="a7N-yu-x3W"/>
         <segue reference="ZNG-wi-VMJ"/>
         <segue reference="kwy-rw-wVg"/>
-        <segue reference="WSV-Bd-bVE"/>
+        <segue reference="BQ2-xx-gIl"/>
     </inferredMetricsTieBreakers>
 </document>

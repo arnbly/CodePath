@@ -22,8 +22,10 @@ class ForgotPasswordViewController: UIViewController {
     }
     
     @IBAction func backButton(_ sender: UIButton) {
-        navigationController!.popViewController(animated: false)
+        dismiss(animated: true, completion: nil)
+
     }
+    
 
     /*
     // MARK: - Navigation
