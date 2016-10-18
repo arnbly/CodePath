@@ -10,12 +10,17 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var signInButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        signInButton.isEnabled = true
 
+        passwordField.isSecureTextEntry = true
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -24,6 +29,11 @@ class SignInViewController: UIViewController {
     @IBAction func backBtn(_ sender: UIButton) {
         navigationController!.popViewController(animated: true)
     }
+    
+    @IBAction func didTap(_ sender: AnyObject) {
+        view.endEditing(true)
+    }
+
 
     /*
     // MARK: - Navigation

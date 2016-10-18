@@ -1,17 +1,23 @@
 //
-//  ForgotPasswordViewController.swift
+//  introPageViewController.swift
 //  assignmentDropbox
 //
-//  Created by Aaron Bailey on 10/16/16.
+//  Created by Aaron Bailey on 10/17/16.
 //  Copyright © 2016 Aaron Bailey. All rights reserved.
 //
 
 import UIKit
 
-class ForgotPasswordViewController: UIViewController {
+class introPageViewController: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scrollView.contentSize = CGSize(width: 1125, height: 667)
+        scrollView.delegate = self
 
         // Do any additional setup after loading the view.
     }
@@ -21,12 +27,15 @@ class ForgotPasswordViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func backButton(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
-
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        // Get the current page based on the scroll offset
+        let page : Int = Int(round(scrollView.contentOffset.x / 320))
+        
+        // Set the current page, so the dots will update
+        pageControl.currentPage = page
     }
     
-
+    
     /*
     // MARK: - Navigation
 
