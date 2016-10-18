@@ -324,8 +324,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yuk-sy-Hvf">
-                                <frame key="frameInset" minX="5" minY="347" width="370" height="320"/>
+                                <frame key="frameInset" minY="386" width="375" height="281"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <segue destination="o0F-3g-vfh" kind="push" animates="NO" id="AS3-qV-ukh"/>
                                 </connections>
@@ -337,9 +338,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
-                                <connections>
-                                    <action selector="enableSignIn:" destination="Xlj-Sc-6lJ" eventType="editingDidEnd" id="zZZ-Zd-VqP"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="QqN-Vt-BvB">
                                 <frame key="frameInset" minX="135" minY="201" width="229" height="42"/>
@@ -348,9 +346,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
-                                <connections>
-                                    <action selector="enableSignIn:" destination="Xlj-Sc-6lJ" eventType="editingDidEnd" id="XSZ-TP-Hl5"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Doe" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="cXS-01-Hfc">
                                 <frame key="frameInset" minX="135" minY="149" width="229" height="42"/>
@@ -359,9 +354,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
-                                <connections>
-                                    <action selector="enableSignIn:" destination="Xlj-Sc-6lJ" eventType="editingDidEnd" id="zCg-7Q-Frh"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="John" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="eR8-1b-tdR">
                                 <frame key="frameInset" minX="135" minY="99" width="229" height="42"/>
@@ -370,19 +362,25 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
-                                <connections>
-                                    <action selector="enableSignIn:" destination="Xlj-Sc-6lJ" eventType="editingDidEnd" id="MZt-GA-M2I"/>
-                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.26274509800000001" green="1" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="fyT-qs-xIZ" appends="YES" id="mOq-fF-F8B"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="I8K-6f-cLN"/>
                     <connections>
-                        <outlet property="passwordField" destination="EhS-vQ-3BL" id="ann-s7-Zpf"/>
+                        <outlet property="passwordField" destination="EhS-vQ-3BL" id="kz2-Mw-w72"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y14-7B-FCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="fyT-qs-xIZ">
+                    <connections>
+                        <action selector="didTap:" destination="JP0-r0-NK1" id="COh-Cx-Tg0"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2644.5" y="247.5"/>
         </scene>
@@ -710,10 +708,10 @@
             </objects>
             <point key="canvasLocation" x="4995.5" y="-610.5"/>
         </scene>
-        <!--Terms View Controller-->
+        <!--Web View Controller-->
         <scene sceneID="sRN-gd-90g">
             <objects>
-                <viewController id="PlS-T5-xxA" customClass="TermsViewController" customModule="assignmentDropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PlS-T5-xxA" customClass="webViewController" customModule="assignmentDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8VP-no-bs2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -726,16 +724,24 @@
                                 <frame key="frameInset" minX="310" minY="29" width="62" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="doneButton:" destination="PlS-T5-xxA" eventType="touchUpInside" id="hYe-3A-qg4"/>
+                                    <action selector="doneButton:" destination="PlS-T5-xxA" eventType="touchUpInside" id="16Y-Cy-ihi"/>
                                 </connections>
                             </button>
+                            <webView contentMode="scaleToFill" misplaced="YES" id="ddV-IA-Fdw">
+                                <frame key="frameInset" minY="76" width="375" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="ddV-IA-Fdw" id="k9Y-FH-gjo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A2j-fs-i0O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5488" y="-611"/>
+            <point key="canvasLocation" x="5487.5" y="-611.5"/>
         </scene>
         <!--Settings-->
         <scene sceneID="69D-WW-7P7">
@@ -1071,9 +1077,9 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ZNG-wi-VMJ"/>
         <segue reference="a7N-yu-x3W"/>
+        <segue reference="ZNG-wi-VMJ"/>
         <segue reference="kwy-rw-wVg"/>
-        <segue reference="0mf-Lw-29x"/>
+        <segue reference="WSV-Bd-bVE"/>
     </inferredMetricsTieBreakers>
 </document>

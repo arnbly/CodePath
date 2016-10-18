@@ -25,6 +25,7 @@
 		936E9D691DB4649A0015674B /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E9D681DB4649A0015674B /* FavoritesViewController.swift */; };
 		936E9D6B1DB464AD0015674B /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E9D6A1DB464AD0015674B /* FilesViewController.swift */; };
 		936E9DA71DB5D80C0015674B /* introPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E9DA61DB5D80C0015674B /* introPageViewController.swift */; };
+		936E9DA91DB5E95B0015674B /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E9DA81DB5E95B0015674B /* webViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		936E9D681DB4649A0015674B /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		936E9D6A1DB464AD0015674B /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
 		936E9DA61DB5D80C0015674B /* introPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = introPageViewController.swift; sourceTree = "<group>"; };
+		936E9DA81DB5E95B0015674B /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		936E9D471DB4468F0015674B /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				936E9DA81DB5E95B0015674B /* webViewController.swift */,
 				936E9DA61DB5D80C0015674B /* introPageViewController.swift */,
 				936E9D641DB4647F0015674B /* SettingsViewController.swift */,
 				936E9D621DB460310015674B /* TermsViewController.swift */,
@@ -308,6 +311,7 @@
 				936E9D1C1DB444D70015674B /* ViewController.swift in Sources */,
 				936E9D5D1DB45AC10015674B /* SignInViewController.swift in Sources */,
 				936E9DA71DB5D80C0015674B /* introPageViewController.swift in Sources */,
+				936E9DA91DB5E95B0015674B /* webViewController.swift in Sources */,
 				936E9D691DB4649A0015674B /* FavoritesViewController.swift in Sources */,
 				936E9D631DB460310015674B /* TermsViewController.swift in Sources */,
 				936E9D1A1DB444D70015674B /* AppDelegate.swift in Sources */,
