@@ -202,6 +202,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="6S0-xZ-pLU" appends="YES" id="ig3-Rc-3Ee"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="MlI-sv-2hN"/>
                     <connections>
@@ -210,6 +214,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Muu-2z-wy6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="6S0-xZ-pLU">
+                    <connections>
+                        <action selector="didTap:" destination="Xlj-Sc-6lJ" id="Cff-Bp-pSl"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2644.5" y="1094.5"/>
         </scene>

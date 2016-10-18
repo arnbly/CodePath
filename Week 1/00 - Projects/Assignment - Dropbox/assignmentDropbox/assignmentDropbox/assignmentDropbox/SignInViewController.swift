@@ -30,9 +30,9 @@ class SignInViewController: UIViewController {
         navigationController!.popViewController(animated: true)
     }
     
-    /*@IBAction func didTap(_ sender: AnyObject) {
+    @IBAction func didTap(_ sender: AnyObject) {
         view.endEditing(true)
-    }*/
+    }
 
 
     /*
