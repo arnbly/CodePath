@@ -34,12 +34,10 @@ Time spent: `9`
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/fjM4jTI.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="https://github.com/arnbly/CodePath/blob/master/Week%201/01%20-%20Assets/AB-DropboxDemo.gif" target="_blank"><img src='https://github.com/arnbly/CodePath/blob/master/Week%201/01%20-%20Assets/AB-DropboxDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
-* Any libraries or borrowed content.
+None
