@@ -18,6 +18,7 @@
 		9355EBBA1DBEF77900518080 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBB91DBEF77900518080 /* IntroViewController.swift */; };
 		9355EBBD1DBEFEDE00518080 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBBC1DBEFEDE00518080 /* LoginViewController.swift */; };
 		9355EBBF1DBF0BC000518080 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBBE1DBF0BC000518080 /* TutorialViewController.swift */; };
+		9355EBC11DBF108200518080 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBC01DBF108200518080 /* TimelineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9355EBB91DBEF77900518080 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		9355EBBC1DBEFEDE00518080 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 		9355EBBE1DBF0BC000518080 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		9355EBC01DBF108200518080 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +111,6 @@
 				9355EB8B1DBEF6EE00518080 /* ViewController.swift */,
 				9355EBB71DBEF74300518080 /* Common.swift */,
 				9355EB8D1DBEF6EE00518080 /* Main.storyboard */,
-				9355EBBE1DBF0BC000518080 /* TutorialViewController.swift */,
 				9355EBBB1DBEF77E00518080 /* ViewControllers */,
 				9355EB901DBEF6EE00518080 /* Assets.xcassets */,
 				9355EB921DBEF6EE00518080 /* LaunchScreen.storyboard */,
@@ -139,6 +140,8 @@
 		9355EBBB1DBEF77E00518080 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9355EBBE1DBF0BC000518080 /* TutorialViewController.swift */,
+				9355EBC01DBF108200518080 /* TimelineViewController.swift */,
 				9355EBBC1DBEFEDE00518080 /* LoginViewController.swift */,
 				9355EBB91DBEF77900518080 /* IntroViewController.swift */,
 			);
@@ -283,6 +286,7 @@
 				9355EBB81DBEF74300518080 /* Common.swift in Sources */,
 				9355EB8A1DBEF6EE00518080 /* AppDelegate.swift in Sources */,
 				9355EBBD1DBEFEDE00518080 /* LoginViewController.swift in Sources */,
+				9355EBC11DBF108200518080 /* TimelineViewController.swift in Sources */,
 				9355EBBF1DBF0BC000518080 /* TutorialViewController.swift in Sources */,
 				9355EBBA1DBEF77900518080 /* IntroViewController.swift in Sources */,
 			);

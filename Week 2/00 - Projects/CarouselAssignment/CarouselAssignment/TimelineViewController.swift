@@ -1,5 +1,5 @@
 //
-//  TutorialViewController.swift
+//  TimelineViewController.swift
 //  CarouselAssignment
 //
 //  Created by Aaron Bailey on 10/24/16.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class TutorialViewController: UIViewController {
+class TimelineViewController: UIViewController {
 
-    @IBOutlet weak var tutorialScrollView: UIScrollView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        tutorialScrollView.contentSize = CGSize (width: 1500, height: 667)
+
         // Do any additional setup after loading the view.
     }
 
