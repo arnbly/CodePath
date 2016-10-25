@@ -126,7 +126,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                         </subviews>
                                     </view>
@@ -138,10 +138,6 @@
                                                 <frame key="frameInset" minY="6" width="376" height="122"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
-                                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="gray" id="jWf-ci-aUR">
-                                                <frame key="frameInset" minX="304" minY="42" width="20" height="20"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </activityIndicatorView>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xeh-fP-klH">
                                                 <frame key="frameInset" minX="24" minY="21" width="329" height="57"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -157,7 +153,14 @@
                                                         <color key="value" red="0.1137254902" green="0.60392156860000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="didPressSignIn:" destination="yU3-Zp-74j" eventType="touchUpInside" id="72g-lG-tFE"/>
+                                                </connections>
                                             </button>
+                                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="white" id="jWf-ci-aUR">
+                                                <frame key="frameInset" minX="129" minY="39" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </activityIndicatorView>
                                         </subviews>
                                     </view>
                                 </subviews>
@@ -170,13 +173,31 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="jWf-ci-aUR" id="EF3-2b-Sno"/>
                         <outlet property="buttonParentView" destination="dym-gX-854" id="Y2z-0P-b6T"/>
+                        <outlet property="emailField" destination="gPq-Mb-xD8" id="sMA-kS-OPH"/>
                         <outlet property="loginScrollView" destination="d6O-Jm-KYC" id="rLU-fa-eSD"/>
+                        <outlet property="passwordField" destination="YIJ-vW-tEs" id="n11-CT-Hta"/>
+                        <segue destination="AHE-YZ-BKs" kind="modal" identifier="signInSegue" id="7L8-HW-xw9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Lt-9e-dPn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1168.5" y="152.5"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="bV3-yN-g5c">
+            <objects>
+                <viewController id="AHE-YZ-BKs" customClass="TutorialViewController" customModule="CarouselAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ePY-cg-W26">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iDX-L0-k7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1677" y="153"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wrK-UT-Cqo">
