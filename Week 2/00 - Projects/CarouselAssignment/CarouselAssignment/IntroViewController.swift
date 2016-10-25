@@ -20,6 +20,7 @@ class IntroViewController: UIViewController {
         introScrollView.contentSize = introScrollImage.frame.size
         
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

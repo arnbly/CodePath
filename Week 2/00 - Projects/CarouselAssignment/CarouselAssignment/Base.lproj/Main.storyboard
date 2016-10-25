@@ -62,15 +62,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="yU3-Zp-74j" kind="push" id="m3Y-zb-0I4"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="htz-86-L4w">
-                                        <rect key="frame" x="23" y="35" width="323" height="293"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <connections>
-                                            <segue destination="ujL-1f-uo0" kind="modal" id="NAF-ME-vx8"/>
+                                            <segue destination="yU3-Zp-74j" kind="push" animates="NO" id="m3Y-zb-0I4"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -174,6 +166,13 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bg0-IU-GKl">
+                                <frame key="frameInset" minY="29" width="61" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="didPressBack:" destination="yU3-Zp-74j" eventType="touchUpInside" id="ref-Xz-gM6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -184,6 +183,8 @@
                         <outlet property="activityIndicator" destination="jWf-ci-aUR" id="EF3-2b-Sno"/>
                         <outlet property="buttonParentView" destination="dym-gX-854" id="Y2z-0P-b6T"/>
                         <outlet property="emailField" destination="gPq-Mb-xD8" id="sMA-kS-OPH"/>
+                        <outlet property="fieldParentView" destination="a67-99-H8Q" id="Z5d-9H-SBZ"/>
+                        <outlet property="loginNavBar" destination="xoM-Dq-SNk" id="eYU-Ez-coL"/>
                         <outlet property="loginScrollView" destination="d6O-Jm-KYC" id="rLU-fa-eSD"/>
                         <outlet property="passwordField" destination="YIJ-vW-tEs" id="n11-CT-Hta"/>
                         <segue destination="AHE-YZ-BKs" kind="modal" identifier="signInSegue" id="7L8-HW-xw9"/>
@@ -469,7 +470,6 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="NAF-ME-vx8"/>
         <segue reference="ft6-SC-FMB"/>
     </inferredMetricsTieBreakers>
 </document>
