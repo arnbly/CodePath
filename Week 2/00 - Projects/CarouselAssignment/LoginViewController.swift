@@ -42,10 +42,7 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
             
             self.loginScrollView.contentOffset.y = self.loginScrollView.contentInset.bottom
         }
-        
-        NotificationCenter.default.addObserver(forName: Notification.Name.UIKeyboardWillHide, object: nil, queue: OperationQueue.main) { (notification: Notification) in
-            // Any code you put in here will be called when the keyboard is about to hide
-        }
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
