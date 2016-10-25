@@ -114,14 +114,14 @@
                                                 <frame key="frameInset" minY="87" width="375" height="134"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" textAlignment="natural" minimumFontSize="17" id="gPq-Mb-xD8">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" id="gPq-Mb-xD8">
                                                 <frame key="frameInset" minX="25" minY="113" width="327" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" textAlignment="natural" minimumFontSize="17" id="YIJ-vW-tEs">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" id="YIJ-vW-tEs">
                                                 <frame key="frameInset" minX="25" minY="165" width="327" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <nil key="textColor"/>
@@ -131,7 +131,7 @@
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" misplaced="YES" id="dym-gX-854" userLabel="buttonParentView">
-                                        <rect key="frame" x="0.0" y="420" width="375" height="128"/>
+                                        <rect key="frame" x="0.0" y="407" width="375" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="sign_in_buttons" id="Z4b-On-nb4">
@@ -170,6 +170,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
+                        <outlet property="buttonParentView" destination="dym-gX-854" id="Y2z-0P-b6T"/>
                         <outlet property="loginScrollView" destination="d6O-Jm-KYC" id="rLU-fa-eSD"/>
                     </connections>
                 </viewController>
