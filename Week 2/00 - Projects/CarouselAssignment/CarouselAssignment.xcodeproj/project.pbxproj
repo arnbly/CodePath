@@ -15,6 +15,7 @@
 		9355EB9F1DBEF6EE00518080 /* CarouselAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EB9E1DBEF6EE00518080 /* CarouselAssignmentTests.swift */; };
 		9355EBAA1DBEF6EE00518080 /* CarouselAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBA91DBEF6EE00518080 /* CarouselAssignmentUITests.swift */; };
 		9355EBB81DBEF74300518080 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBB71DBEF74300518080 /* Common.swift */; };
+		9355EBBA1DBEF77900518080 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBB91DBEF77900518080 /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9355EBA91DBEF6EE00518080 /* CarouselAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselAssignmentUITests.swift; sourceTree = "<group>"; };
 		9355EBAB1DBEF6EE00518080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9355EBB71DBEF74300518080 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../Common.swift; sourceTree = "<group>"; };
+		9355EBB91DBEF77900518080 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9355EB8B1DBEF6EE00518080 /* ViewController.swift */,
 				9355EBB71DBEF74300518080 /* Common.swift */,
 				9355EB8D1DBEF6EE00518080 /* Main.storyboard */,
+				9355EBBB1DBEF77E00518080 /* ViewControllers */,
 				9355EB901DBEF6EE00518080 /* Assets.xcassets */,
 				9355EB921DBEF6EE00518080 /* LaunchScreen.storyboard */,
 				9355EB951DBEF6EE00518080 /* Info.plist */,
@@ -126,6 +129,14 @@
 				9355EBAB1DBEF6EE00518080 /* Info.plist */,
 			);
 			path = CarouselAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		9355EBBB1DBEF77E00518080 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9355EBB91DBEF77900518080 /* IntroViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 				9355EB8C1DBEF6EE00518080 /* ViewController.swift in Sources */,
 				9355EBB81DBEF74300518080 /* Common.swift in Sources */,
 				9355EB8A1DBEF6EE00518080 /* AppDelegate.swift in Sources */,
+				9355EBBA1DBEF77900518080 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
