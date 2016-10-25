@@ -1,5 +1,5 @@
 //
-//  TimelineViewController.swift
+//  ConversationsViewController.swift
 //  CarouselAssignment
 //
 //  Created by Aaron Bailey on 10/24/16.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class TimelineViewController: UIViewController {
+class ConversationsViewController: UIViewController {
 
-    @IBOutlet weak var timelineScrollView: UIScrollView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        timelineScrollView.contentSize = CGSize (width: 375, height: 1842)
+
         // Do any additional setup after loading the view.
     }
 

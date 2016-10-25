@@ -19,6 +19,8 @@
 		9355EBBD1DBEFEDE00518080 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBBC1DBEFEDE00518080 /* LoginViewController.swift */; };
 		9355EBBF1DBF0BC000518080 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBBE1DBF0BC000518080 /* TutorialViewController.swift */; };
 		9355EBC11DBF108200518080 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBC01DBF108200518080 /* TimelineViewController.swift */; };
+		9355EBC31DBF14D200518080 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBC21DBF14D200518080 /* SettingsViewController.swift */; };
+		9355EBC51DBF14E600518080 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBC41DBF14E600518080 /* ConversationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		9355EBBC1DBEFEDE00518080 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 		9355EBBE1DBF0BC000518080 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		9355EBC01DBF108200518080 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		9355EBC21DBF14D200518080 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9355EBC41DBF14E600518080 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		9355EB7D1DBEF6EE00518080 = {
 			isa = PBXGroup;
 			children = (
+				9355EBC21DBF14D200518080 /* SettingsViewController.swift */,
+				9355EBC41DBF14E600518080 /* ConversationsViewController.swift */,
 				9355EB881DBEF6EE00518080 /* CarouselAssignment */,
 				9355EB9D1DBEF6EE00518080 /* CarouselAssignmentTests */,
 				9355EBA81DBEF6EE00518080 /* CarouselAssignmentUITests */,
@@ -288,7 +294,9 @@
 				9355EBBD1DBEFEDE00518080 /* LoginViewController.swift in Sources */,
 				9355EBC11DBF108200518080 /* TimelineViewController.swift in Sources */,
 				9355EBBF1DBF0BC000518080 /* TutorialViewController.swift in Sources */,
+				9355EBC51DBF14E600518080 /* ConversationsViewController.swift in Sources */,
 				9355EBBA1DBEF77900518080 /* IntroViewController.swift in Sources */,
+				9355EBC31DBF14D200518080 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
