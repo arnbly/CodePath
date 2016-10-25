@@ -16,6 +16,7 @@
 		9355EBAA1DBEF6EE00518080 /* CarouselAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBA91DBEF6EE00518080 /* CarouselAssignmentUITests.swift */; };
 		9355EBB81DBEF74300518080 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBB71DBEF74300518080 /* Common.swift */; };
 		9355EBBA1DBEF77900518080 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBB91DBEF77900518080 /* IntroViewController.swift */; };
+		9355EBBD1DBEFEDE00518080 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355EBBC1DBEFEDE00518080 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9355EBAB1DBEF6EE00518080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9355EBB71DBEF74300518080 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../Common.swift; sourceTree = "<group>"; };
 		9355EBB91DBEF77900518080 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		9355EBBC1DBEFEDE00518080 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		9355EBBB1DBEF77E00518080 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9355EBBC1DBEFEDE00518080 /* LoginViewController.swift */,
 				9355EBB91DBEF77900518080 /* IntroViewController.swift */,
 			);
 			name = ViewControllers;
@@ -276,6 +279,7 @@
 				9355EB8C1DBEF6EE00518080 /* ViewController.swift in Sources */,
 				9355EBB81DBEF74300518080 /* Common.swift in Sources */,
 				9355EB8A1DBEF6EE00518080 /* AppDelegate.swift in Sources */,
+				9355EBBD1DBEFEDE00518080 /* LoginViewController.swift in Sources */,
 				9355EBBA1DBEF77900518080 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

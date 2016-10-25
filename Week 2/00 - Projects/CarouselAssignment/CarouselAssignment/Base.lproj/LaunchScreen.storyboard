@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="CarouselLoader" translatesAutoresizingMaskIntoConstraints="NO" id="CVQ-0U-RCB">
-                                <frame key="frameInset" width="375" height="667"/>
+                                <frame key="frameInset" minY="15" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
