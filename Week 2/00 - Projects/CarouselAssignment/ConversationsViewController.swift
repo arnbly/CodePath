@@ -21,6 +21,9 @@ class ConversationsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func backButton(_ sender: UIButton) {
+        navigationController?.popToRootViewController(animated: true)
+    }
 
     /*
     // MARK: - Navigation
