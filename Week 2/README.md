@@ -66,7 +66,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<a href="https://github.com/arnbly/CodePath/blob/master/Week%201/01%20-%20Assets/AB-DropboxDemo.gif" target="_blank"><img src='https://github.com/arnbly/CodePath/blob/master/Week%201/01%20-%20Assets/AB-DropboxDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+<a href="https://github.com/arnbly/CodePath/blob/master/Week%202/01%20-%20Assets/AB-Carousel-Demo.gif?raw=true" target="_blank"><img src='https://github.com/arnbly/CodePath/blob/master/Week%202/01%20-%20Assets/AB-Carousel-Demo.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
