@@ -45,9 +45,9 @@ class MessageViewController: UIViewController {
     @IBAction func didPanMessage(_ sender: UIPanGestureRecognizer) {
         let translation = sender.translation(in: view)
         let firstStep: CGFloat = 65
-        let secondStep: CGFloat = 150
+        let secondStep: CGFloat = 200
         let firstNStep: CGFloat = -65
-        let secondNStep: CGFloat = -150
+        let secondNStep: CGFloat = -200
 
         if sender.state == .began {
             
@@ -80,8 +80,8 @@ class MessageViewController: UIViewController {
                 //Move Icon
                 archiveIcon.center = CGPoint(x: messageView.center.x - 217, y: archiveIconOriginal.y)
                 
-                //Swap Image back to later icon
-                laterIcon.image = UIImage(named: "later_icon")
+                //Swap Image back to archive icon
+                archiveIcon.image = UIImage(named: "archive_icon")
                 
             } else if translation.x > secondStep {
                 //Delete - Red
@@ -108,7 +108,7 @@ class MessageViewController: UIViewController {
                 //Move Icon
                 laterIcon.center = CGPoint(x: messageView.center.x + 217, y: laterIconOriginal.y)
                 
-                //Swap Image back to archive
+                //Swap Image back to later
                 laterIcon.image = UIImage(named: "later_icon")
 
                 
