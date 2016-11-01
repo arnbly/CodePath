@@ -68,6 +68,40 @@
                                 </segments>
                                 <color key="tintColor" red="0.26666666666666666" green="0.66666666666666663" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
+                            <view alpha="0.0" contentMode="scaleToFill" misplaced="YES" id="w7V-0r-qbL">
+                                <frame key="frameInset" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="list" id="g39-hh-mmh">
+                                        <frame key="frameInset" width="375" height="667"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bub-1L-KLK">
+                                        <frame key="frameInset" minX="15" minY="115" width="345" height="437"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="clearViews:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SoD-0Y-lAI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                            <view alpha="0.0" contentMode="scaleToFill" id="us9-5E-Kmx">
+                                <frame key="frameInset" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleAspectFill" image="reschedule" id="f5G-bS-qsq">
+                                        <frame key="frameInset" width="375" height="667"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X0Q-pN-mQh">
+                                        <frame key="frameInset" minX="22" minY="122" width="345" height="437"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="clearViews:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hin-F8-vCb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -75,7 +109,9 @@
                         <outlet property="archiveIcon" destination="for-xk-7cn" id="DsM-3J-JV5"/>
                         <outlet property="feedImage" destination="63Y-eh-zQD" id="8Zx-oK-MUH"/>
                         <outlet property="laterIcon" destination="8Qm-lz-gbG" id="081-iP-8Qt"/>
+                        <outlet property="listView" destination="w7V-0r-qbL" id="j0L-yC-DPk"/>
                         <outlet property="messageView" destination="jCq-Du-miT" id="5Nh-F1-iok"/>
+                        <outlet property="scheduleView" destination="us9-5E-Kmx" id="fQP-Sd-t2J"/>
                         <outlet property="scrollView" destination="AT3-gT-fYl" id="lZc-JJ-Kd1"/>
                     </connections>
                 </viewController>
@@ -96,9 +132,11 @@
         <image name="help_label" width="320" height="37"/>
         <image name="later_icon" width="25" height="25"/>
         <image name="later_nav_icon" width="25" height="20"/>
+        <image name="list" width="320" height="568"/>
         <image name="mail_nav_icon" width="25" height="20"/>
         <image name="message" width="320" height="86"/>
         <image name="nav" width="320" height="65"/>
+        <image name="reschedule" width="320" height="568"/>
         <image name="search" width="320" height="42"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
