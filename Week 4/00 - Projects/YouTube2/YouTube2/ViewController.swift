@@ -82,9 +82,7 @@ class ViewController: UIViewController {
         } else {
             print("invalid pan state")
         }
-        
-        
-        
+
     }
 
 }
