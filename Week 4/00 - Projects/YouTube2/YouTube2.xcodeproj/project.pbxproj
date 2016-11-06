@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		93EC1E531DCC34AD0019A5A4 /* YouTube2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTube2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93EC1E561DCC34AD0019A5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93EC1E581DCC34AD0019A5A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93EC1E581DCC34AD0019A5A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		93EC1E5B1DCC34AD0019A5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93EC1E5D1DCC34AD0019A5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93EC1E601DCC34AD0019A5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -503,6 +503,7 @@
 				93EC1E7D1DCC34AD0019A5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93EC1E7E1DCC34AD0019A5A4 /* Build configuration list for PBXNativeTarget "YouTube2Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +512,7 @@
 				93EC1E801DCC34AD0019A5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93EC1E811DCC34AD0019A5A4 /* Build configuration list for PBXNativeTarget "YouTube2UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +521,7 @@
 				93EC1E831DCC34AD0019A5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
