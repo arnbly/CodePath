@@ -10,8 +10,14 @@ import UIKit
 
 class TrendingViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Scrollview Init
+        scrollView.contentSize = CGSize (width: 375, height: 1419)
+        scrollView.contentInset.top = 34
 
     } // End viewDidLoad Method
 
