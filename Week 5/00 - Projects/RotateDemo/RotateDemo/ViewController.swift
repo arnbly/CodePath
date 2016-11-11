@@ -59,14 +59,14 @@ class ViewController: UIViewController {
                 //fly off right
                 UIView.animate(withDuration: 0.3, animations: {
                     greenView.center.x = self.view.frame.size.width + 200
-                    greenView.transform = CGAffineTransform(rotationAngle: 200 / 4 * CGFloat(M_PI / 180))
+                    greenView.transform = CGAffineTransform(rotationAngle: 200 / 4 * CGFloat(M_PI / 180) * self.signFlip)
                 })
 
             } else if translation.x <= -100 {
                 //fly off left
                 UIView.animate(withDuration: 0.3, animations: {
                     greenView.center.x = -200
-                    greenView.transform = CGAffineTransform(rotationAngle: -200 / 4 * CGFloat(M_PI / 180))
+                    greenView.transform = CGAffineTransform(rotationAngle: -200 / 4 * CGFloat(M_PI / 180) * self.signFlip)
                 })
             }// End Else If positioning
         }// End else if pan state change
