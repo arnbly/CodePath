@@ -12,6 +12,7 @@ class CardsViewController: UIViewController {
 
     var originalImageCenter: CGPoint!
     var signFlip: CGFloat!
+    var fadeTransition: FadeTransition!
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var containerView: UIView!
@@ -84,8 +85,22 @@ class CardsViewController: UIViewController {
     }// End didTap Method
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            let profileViewController = segue.destination as! ProfileViewController
+        //Set destination view controller
+        let profileViewController = segue.destination as! ProfileViewController
         
-            profileViewController.image = self.imageView.image
-    }// End prepare for segue Method
+        //Pass profile image into destination view
+        profileViewController.image = self.imageView.image
+        
+        // Set the modal presentation style of your destinationViewController to be custom.
+        profileViewController.modalPresentationStyle = UIModalPresentationStyle.custom
+        
+   //     // Create a new instance of your fadeTransition.
+        fadeTransition = FadeTransition()
+        
+   //     // Tell the destinationViewController's  transitioning delegate to look in fadeTransition for transition instructions.
+        profileViewController.transitioningDelegate = fadeTransition
+        
+        // Adjust the transition duration. (seconds)
+        fadeTransition.duration = 1.0
+    }// End prepareForSegue
 }

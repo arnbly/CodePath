@@ -21,12 +21,16 @@
                                 <rect key="frame" x="0.0" y="447" width="320" height="108"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="nav_bar" id="dJv-ql-eMi">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" id="Imv-E6-sw1">
-                                <rect key="frame" x="36" y="108" width="257" height="312"/>
+                                <rect key="frame" x="32" y="106" width="257" height="312"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="ryan" id="NVV-0k-qcp">
-                                        <rect key="frame" x="-12" y="-12" width="298" height="377"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="312"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <gestureRecognizers/>
                                         <connections>
@@ -40,10 +44,6 @@
                                     <outletCollection property="gestureRecognizers" destination="ynz-tN-J1k" appends="YES" id="YyZ-Ds-Aqe"/>
                                 </connections>
                             </view>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="nav_bar" id="dJv-ql-eMi">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -86,7 +86,7 @@
                                     <action selector="doneButton:" destination="cee-DG-21Y" eventType="touchUpInside" id="6JT-3S-keD"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" id="LOX-FP-dtk">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" id="LOX-FP-dtk">
                                 <rect key="frame" x="0.0" y="65" width="320" height="397"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>

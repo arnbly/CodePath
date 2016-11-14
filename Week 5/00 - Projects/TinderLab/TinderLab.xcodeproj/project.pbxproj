@@ -16,6 +16,8 @@
 		9366F04F1DD57947009B8EDB /* TinderLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366F04E1DD57947009B8EDB /* TinderLabUITests.swift */; };
 		937025671DD579DF00F6142C /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937025661DD579DF00F6142C /* CardsViewController.swift */; };
 		937025691DD57EC500F6142C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937025681DD57EC500F6142C /* ProfileViewController.swift */; };
+		93A80AC81DD690E200D67418 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A80AC61DD690E200D67418 /* BaseTransition.swift */; };
+		93A80AC91DD690E200D67418 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A80AC71DD690E200D67418 /* FadeTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9366F0501DD57947009B8EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937025661DD579DF00F6142C /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		937025681DD57EC500F6142C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		93A80AC61DD690E200D67418 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		93A80AC71DD690E200D67418 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				9366F0301DD57947009B8EDB /* ViewController.swift */,
 				9366F0321DD57947009B8EDB /* Main.storyboard */,
 				9366F0351DD57947009B8EDB /* Assets.xcassets */,
+				93A80AC61DD690E200D67418 /* BaseTransition.swift */,
+				93A80AC71DD690E200D67418 /* FadeTransition.swift */,
 				9366F0371DD57947009B8EDB /* LaunchScreen.storyboard */,
 				9366F03A1DD57947009B8EDB /* Info.plist */,
 			);
@@ -266,8 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9366F0311DD57947009B8EDB /* ViewController.swift in Sources */,
+				93A80AC81DD690E200D67418 /* BaseTransition.swift in Sources */,
 				9366F02F1DD57947009B8EDB /* AppDelegate.swift in Sources */,
 				937025691DD57EC500F6142C /* ProfileViewController.swift in Sources */,
+				93A80AC91DD690E200D67418 /* FadeTransition.swift in Sources */,
 				937025671DD579DF00F6142C /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
