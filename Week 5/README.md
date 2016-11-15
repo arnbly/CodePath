@@ -25,7 +25,7 @@ Time spent: `<9>`
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. Still having issues animating smoothly between custom transitions when passing view elements. They end up getting removed, and causing the screen to flash, when removed in the complete section of an animation. 
-
+2. Switching between imageFit and imageFill was problematic for a smooth transition
 
 ### Video Walkthrough 
 
