@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AFNetworking
 
 class MovieViewController: UIViewController, UITableViewDataSource {
     
@@ -67,8 +68,7 @@ class MovieViewController: UIViewController, UITableViewDataSource {
         let posterPath = movie["poster_path"] as! String
         let imageURL = URL(string: baseURLString + posterPath)
         
-        cell.posterImageView
-
+        cell.posterImageView.setImageWith(imageURL!)
         
         return cell
     }
